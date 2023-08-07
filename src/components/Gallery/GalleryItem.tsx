@@ -1,7 +1,7 @@
 import { Box } from "@mui/system";
 import { CardMedia, Card as MUICard } from "@mui/material";
 import { FC } from "react";
-import { Card } from "@/services/cards";
+import { Card } from "@/services/cardsService";
 
 export const GalleryItem: FC<{ card: Card }> = ({ card }) => {
   return (

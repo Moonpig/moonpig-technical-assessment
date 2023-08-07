@@ -12,10 +12,10 @@ export type CardListData = {
 };
 
 export const API_BASE_URL =
-  "https://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/moonpig-spike/moonpig-spike-tech-test-frontend-web/main/public/cards";
+  "https://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/Moonpig/moonpig-technical-assessment/master/public/cards";
 
 export const getCardList: GetCardsList = async () => {
-  const url = `${API_BASE_URL}/data.json?token=${process.env.REACT_APP_GITHUB_TOKEN}`;
+  const url = `${API_BASE_URL}/data.json?token=GHSAT0AAAAAACDLYWQET2V2HZ7UXNKFUE3GZGRDXMQ`;
 
   const response = await fetch(url, {
     method: "GET",
