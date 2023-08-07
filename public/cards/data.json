@@ -1,0 +1,349 @@
+{
+  "items": [
+    {
+      "id": "9f9d4bc5-5d84-46f0-bb28-55f4da3d95c6",
+      "title": "Birthday card",
+      "price": 3.79,
+      "images": [
+        {
+          "url": "/cards/img-42t5xCzV-large.jpg",
+          "alt": "foo"
+        },
+        {
+          "url": "/cards/inside-left.jpeg",
+          "alt": "inside left image of card"
+        },
+        {
+          "url": "/cards/inside-right.jpeg",
+          "alt": "inside right image of card"
+        },
+        {
+          "url": "/cards/back.jpeg",
+          "alt": "back image of card"
+        }
+      ]
+    },
+    {
+      "id": "765ee5c1-ba6b-4b88-8dae-6b79453660a6",
+      "title": "Anniversary card",
+      "price": 3.59,
+      "images": [
+        {
+          "url": "/cards/img-89GVnQj5-large.jpg",
+          "alt": "foo"
+        },
+        {
+          "url": "/cards/inside-left.jpeg",
+          "alt": "inside left image of card"
+        },
+        {
+          "url": "/cards/inside-right.jpeg",
+          "alt": "inside right image of card"
+        },
+        {
+          "url": "/cards/back.jpeg",
+          "alt": "back image of card"
+        }
+      ]
+    },
+    {
+      "id": "07b93b1c-aced-426d-912e-d97f030dd1f4",
+      "title": "Valentine's Day card",
+      "price": 3.29,
+      "images": [
+        {
+          "url": "/cards/img-AaiL1tXg-large.jpeg",
+          "alt": "foo"
+        },
+        {
+          "url": "/cards/inside-left.jpeg",
+          "alt": "inside left image of card"
+        },
+        {
+          "url": "/cards/inside-right.jpeg",
+          "alt": "inside right image of card"
+        },
+        {
+          "url": "/cards/back.jpeg",
+          "alt": "back image of card"
+        }
+      ]
+    },
+    {
+      "id": "2ed9d750-fa34-4be4-a57f-e45fe34510f6",
+      "title": "Mother's Day card",
+      "price": 3.59,
+      "images": [
+        {
+          "url": "/cards/img-aEW-Spuq-large.jpeg",
+          "alt": "foo"
+        },
+        {
+          "url": "/cards/inside-left.jpeg",
+          "alt": "inside left image of card"
+        },
+        {
+          "url": "/cards/inside-right.jpeg",
+          "alt": "inside right image of card"
+        },
+        {
+          "url": "/cards/back.jpeg",
+          "alt": "back image of card"
+        }
+      ]
+    },
+    {
+      "id": "d1b0f624-e275-4390-a241-add911ac4ede",
+      "title": "Father's Day card",
+      "price": 3.79,
+      "images": [
+        {
+          "url": "/cards/img-EysRgbmw-large.jpg",
+          "alt": "foo"
+        },
+        {
+          "url": "/cards/inside-left.jpeg",
+          "alt": "inside left image of card"
+        },
+        {
+          "url": "/cards/inside-right.jpeg",
+          "alt": "inside right image of card"
+        },
+        {
+          "url": "/cards/back.jpeg",
+          "alt": "back image of card"
+        }
+      ]
+    },
+    {
+      "id": "83a40ebe-04c1-44f2-8193-bc389dcf4a9b",
+      "title": "Birthday card",
+      "price": 3.79,
+      "images": [
+        {
+          "url": "/cards/img-FVEi-Dgo-large.jpeg",
+          "alt": "foo"
+        },
+        {
+          "url": "/cards/inside-left.jpeg",
+          "alt": "inside left image of card"
+        },
+        {
+          "url": "/cards/inside-right.jpeg",
+          "alt": "inside right image of card"
+        },
+        {
+          "url": "/cards/back.jpeg",
+          "alt": "back image of card"
+        }
+      ]
+    },
+    {
+      "id": "11861c99-c8a9-4aab-885f-2583bba89ad4",
+      "title": "Birthday card",
+      "price": 3.79,
+      "images": [
+        {
+          "url": "/cards/img-IBxml5kx-large.jpg",
+          "alt": "foo"
+        },
+        {
+          "url": "/cards/inside-left.jpeg",
+          "alt": "inside left image of card"
+        },
+        {
+          "url": "/cards/inside-right.jpeg",
+          "alt": "inside right image of card"
+        },
+        {
+          "url": "/cards/back.jpeg",
+          "alt": "back image of card"
+        }
+      ]
+    },
+    {
+      "id": "d8ebd323-6a5b-4c54-97a6-3dcd7aec556f",
+      "title": "Birthday card",
+      "price": 3.79,
+      "images": [
+        {
+          "url": "/cards/img-iYHzJ5Da-large.jpeg",
+          "alt": "foo"
+        },
+        {
+          "url": "/cards/inside-left.jpeg",
+          "alt": "inside left image of card"
+        },
+        {
+          "url": "/cards/inside-right.jpeg",
+          "alt": "inside right image of card"
+        },
+        {
+          "url": "/cards/back.jpeg",
+          "alt": "back image of card"
+        }
+      ]
+    },
+    {
+      "id": "16850d02-7ff2-4cc2-a0ce-5bdd6e5ed6a9",
+      "title": "Birthday card",
+      "price": 3.79,
+      "images": [
+        {
+          "url": "/cards/img-jPNRHUTw-large.jpeg",
+          "alt": "foo"
+        },
+        {
+          "url": "/cards/inside-left.jpeg",
+          "alt": "inside left image of card"
+        },
+        {
+          "url": "/cards/inside-right.jpeg",
+          "alt": "inside right image of card"
+        },
+        {
+          "url": "/cards/back.jpeg",
+          "alt": "back image of card"
+        }
+      ]
+    },
+    {
+      "id": "aa238d0b-8ab4-4c72-b9ef-aeec0dcdc8e4",
+      "title": "Birthday card",
+      "price": 3.79,
+      "images": [
+        {
+          "url": "/cards/img-kGjpE_Oy-large.jpeg",
+          "alt": "foo"
+        },
+        {
+          "url": "/cards/inside-left.jpeg",
+          "alt": "inside left image of card"
+        },
+        {
+          "url": "/cards/inside-right.jpeg",
+          "alt": "inside right image of card"
+        },
+        {
+          "url": "/cards/back.jpeg",
+          "alt": "back image of card"
+        }
+      ]
+    },
+    {
+      "id": "73f06f0f-fd23-4e94-8d7d-c43222261631",
+      "title": "Birthday card",
+      "price": 3.79,
+      "images": [
+        {
+          "url": "/cards/img-Kgtm9lf_-large.jpeg",
+          "alt": "foo"
+        },
+        {
+          "url": "/cards/inside-left.jpeg",
+          "alt": "inside left image of card"
+        },
+        {
+          "url": "/cards/inside-right.jpeg",
+          "alt": "inside right image of card"
+        },
+        {
+          "url": "/cards/back.jpeg",
+          "alt": "back image of card"
+        }
+      ]
+    },
+    {
+      "id": "d55bf2bc-a570-40e0-92d5-28ee9dac04b8",
+      "title": "Birthday card",
+      "price": 3.79,
+      "images": [
+        {
+          "url": "/cards/img-rgDuF0K_-large.jpeg",
+          "alt": "foo"
+        },
+        {
+          "url": "/cards/inside-left.jpeg",
+          "alt": "inside left image of card"
+        },
+        {
+          "url": "/cards/inside-right.jpeg",
+          "alt": "inside right image of card"
+        },
+        {
+          "url": "/cards/back.jpeg",
+          "alt": "back image of card"
+        }
+      ]
+    },
+    {
+      "id": "65890def-368b-4da9-85ac-41c888a12b3a",
+      "title": "Birthday card",
+      "price": 3.79,
+      "images": [
+        {
+          "url": "/cards/img-Xbnnlsft-large.jpeg",
+          "alt": "foo"
+        },
+        {
+          "url": "/cards/inside-left.jpeg",
+          "alt": "inside left image of card"
+        },
+        {
+          "url": "/cards/inside-right.jpeg",
+          "alt": "inside right image of card"
+        },
+        {
+          "url": "/cards/back.jpeg",
+          "alt": "back image of card"
+        }
+      ]
+    },
+    {
+      "id": "d6c9872a-0d2a-42b7-b48f-b658df2a3113",
+      "title": "Birthday card",
+      "price": 3.79,
+      "images": [
+        {
+          "url": "/cards/img-XH-niG4K-large.jpeg",
+          "alt": "foo"
+        },
+        {
+          "url": "/cards/inside-left.jpeg",
+          "alt": "inside left image of card"
+        },
+        {
+          "url": "/cards/inside-right.jpeg",
+          "alt": "inside right image of card"
+        },
+        {
+          "url": "/cards/back.jpeg",
+          "alt": "back image of card"
+        }
+      ]
+    },
+    {
+      "id": "878752b9-9590-4217-b269-813e0cb87e9a",
+      "title": "Birthday card",
+      "price": 3.79,
+      "images": [
+        {
+          "url": "/cards/img-YszU1VmR-large.jpg",
+          "alt": "foo"
+        },
+        {
+          "url": "/cards/inside-left.jpeg",
+          "alt": "inside left image of card"
+        },
+        {
+          "url": "/cards/inside-right.jpeg",
+          "alt": "inside right image of card"
+        },
+        {
+          "url": "/cards/back.jpeg",
+          "alt": "back image of card"
+        }
+      ]
+    }
+  ]
+}
