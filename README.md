@@ -1,38 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Moonpig Technical Assessment
 
-## Getting Started
+## Welcome
 
-First, run the development server:
+You are an Engineer at Moonpig. Your team looks after the Gallery pages where customers can browse, search and filter through different cards for any particular occasion. See our [Birthday Cards](https://www.moonpig.com/uk/personalised-cards/birthday/all/) as an example.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Your Task
+
+Your teammate, an Associate Engineer, has just submitted a pull request to add a product quick-view modal. Your task is to review the pull request and identify any areas that cause concern, require change or are generally a code smell. Bear in mind your teammate is expecting your feedback, so please present your findings in a constructive, actionable manner.
+
+The business requirements for the pull request are outlined in [REQUIREMENTS.md](REQUIREMENTS.md).
+
+### How to Answer
+
+Ordinarily we would use GitHub to review pull requests. For the purposes of this assessment, please modify [PULLREQUEST.md](PULLREQUEST.md) adding your feedback with reference to the particular file name and line number, i.e:
+
+[Gallery.tsx](/src/components/Gallery.tsx#L127)
+
+```typescript
+const PM: FC<{ card: Card; onClose: () => void }> = ({ card, onClose }) => {
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> This is a poorly named component. It is unclear what `PM` means in this context. Perhaps `ProductModal` is clearer.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Disclaimer
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+This should be treated as production code, but understand that this is only for assessment purposes. Feel free to provide explanations as part of your feedback where you would change things in a real production system.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## How to Run
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To avoid CORS restrictions, web requests are going via a Node proxy. Please visit https://cors-anywhere.herokuapp.com/ and request access before launching.
 
-## Learn More
+Visit https://github.com/moonpig-spike/moonpig-spike-tech-test-frontend-web/blob/main/public/cards/data.json and click `Raw` to view the raw card data file. Copy the `token` from the end of the URL and save it as an environment variable with the name `REACT_APP_GITHUB_TOKEN`.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To start the local development server, install the relevant node modules with the command `npm install`. You can then run it with `npm start`. Relevant tests can be run with `npm test`.

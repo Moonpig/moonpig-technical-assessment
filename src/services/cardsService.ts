@@ -15,7 +15,7 @@ export const API_BASE_URL =
   "https://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/Moonpig/moonpig-technical-assessment/master/public/cards";
 
 export const getCardList: GetCardsList = async () => {
-  const url = `${API_BASE_URL}/data.json?token=GHSAT0AAAAAACDLYWQET2V2HZ7UXNKFUE3GZGRDXMQ`;
+  const url = `${API_BASE_URL}/data.json?token=${process.env.REACT_APP_GITHUB_TOKEN}`;
 
   const response = await fetch(url, {
     method: "GET",
