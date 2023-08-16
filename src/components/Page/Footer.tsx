@@ -11,7 +11,7 @@ const Footer: FC = () => {
         backgroundColor: "rgb(248, 248, 249)",
       }}
     >
-      © Moonpig.com Limited 2023
+      Moonpig technical assessment.
     </footer>
   );
 };
