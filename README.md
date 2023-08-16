@@ -24,7 +24,7 @@ const PM: FC<{ card: Card; onClose: () => void }> = ({ card, onClose }) => {
 
 ## Disclaimer
 
-This should be treated as production code, but understand that this is only for assessment purposes. For the purposes of simplicity, the card product data is retrieved from the local server inside `cardsService.ts`. You can treat `cardsService` as a black box: this is simulating a real service call and doesn't form part of the code on which you need to comment.
+This should be treated as production code, but understand that this is only for assessment purposes. For the purposes of simplicity, the card product data is retrieved from the local development server inside `cardsService.ts`. You can treat `cardsService` as a black box: this is simulating a real service call and doesn't form part of the code you need to review.
 
 ## How to Run
 
