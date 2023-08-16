@@ -6,16 +6,26 @@
 2. When I have a product modal open, I should be able to scroll through additional images of the product.
 3. When I have a product modal open, I should be able to close the modal using the "X" button or the "Dismiss" button.
 
-Additionally, all best practices should be adhered to wherever possible. It should look reasonable on a mobile device, and meet basic accessibility requirements.
-
 The product name and price fields should come from the `title` and `price` fields within the API response
 
 ## Wireframes
 
-### Gallery
+### Desktop
 
-![Gallery View](/wireframes/gallery.jpg 'Gallery View')
+#### Gallery
 
-### Modal
+![Gallery Desktop View](/wireframes/desktop/gallery.jpg "Gallery Desktop View")
 
-![Modal View](/wireframes/modal.jpg 'Modal View')
+#### Modal
+
+![Modal Desktop View](/wireframes/desktop/modal.jpg "Modal Desktop View")
+
+### Mobile
+
+#### Gallery
+
+![Gallery Mobile View](/wireframes/mobile/gallery.jpg "Gallery Mobile View")
+
+#### Modal
+
+![Modal Mobile View](/wireframes/mobile/modal.jpg "Modal Mobile View")

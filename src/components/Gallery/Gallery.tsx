@@ -1,6 +1,6 @@
 import { Box } from "@mui/system";
-import { GalleryItem } from "@/components/Gallery/GalleryItem";
-import { Card, getCardList, CardListData } from "@/services/cardsService";
+import { GalleryItem } from "./GalleryItem";
+import { Card, getCardList, CardListData } from "../../services/cardsService";
 import { FC, useEffect, useMemo, useState } from "react";
 
 type CardList = {
