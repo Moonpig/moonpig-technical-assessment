@@ -3,7 +3,7 @@ import { CardMedia, Card as MUICard } from "@mui/material";
 import { FC } from "react";
 import { Card } from "@/services/cardsService";
 
-export const GalleryItem: FC<{ card: Card }> = ({ card }) => {
+export const GalleryCard: FC<{ card: Card }> = ({ card }) => {
   return (
     <Box width={{ xs: "100%", sm: "200px" }} mx="auto" mb="16px">
       <MUICard>
