@@ -1,5 +1,5 @@
 import { Box } from "@mui/system";
-import { GalleryItem } from "./GalleryItem";
+import { GalleryCard } from "./GalleryCard";
 import { Card, getCardList, CardListData } from "../../services/cardsService";
 import { FC, useEffect, useMemo, useState } from "react";
 
@@ -28,7 +28,7 @@ export const Gallery: FC = () => {
   }, []);
 
   const mapItems = (item: Card) => {
-    return <GalleryItem key={item.id} card={item} />;
+    return <GalleryCard key={item.id} card={item} />;
   };
 
   return (
