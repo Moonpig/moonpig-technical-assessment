@@ -26,7 +26,7 @@ const PM: FC<{ card: Card; onClose: () => void }> = ({ card, onClose }) => {
 
 ## Assessment
 
-This should be treated as production code, but understand that this is only for assessment purposes. For simplicity, card product data is retrieved from the local development server inside `src/services/cardsService.ts`. You can treat `cardsService` as a black box: this is simulating a real service call and doesn't form part of the code you need to review.
+This should be treated as production code, but understand that this is only for assessment purposes. For simplicity, card product data is retrieved from the local development server inside `src/services/cardsService.ts`. You should be aware of the behaviour of `cardsService` but as it's simulating a real service it doesn't form part of the code you need to review.
 
 ## Criteria
 
