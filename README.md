@@ -20,7 +20,7 @@ This should be treated as production code, but understand that this is only for 
 
 ## Criteria
 
-We will assess your submission based on the issues you comment on, as well how your feedback is presented.
+We will assess your submission based on the points raised in your feedback, along with how it is presented.
 
 ## How to Run
 
