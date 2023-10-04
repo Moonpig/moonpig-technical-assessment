@@ -17,7 +17,6 @@ test("should fire the selectCard event when the box is selected", async () => {
     />
   );
 
-  // const image = screen.getByRole("img");
   const image = screen.getByTestId("gallery-item");
   await userEvent.click(image);
   expect(mockSelectCard).toHaveBeenCalled();
