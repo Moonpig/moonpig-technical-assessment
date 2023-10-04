@@ -6,7 +6,7 @@
 2. When I have a product modal open, I should be able to scroll through additional images of the product.
 3. When I have a product modal open, I should be able to close the modal using the "X" button or the "Dismiss" button.
 
-The product name and price fields should come from the `title` and `price` fields within the API response
+The product name and price fields should come from the respective `title` and `price` fields in the response from the `getCard` function in `src/services/cardService.ts`
 
 ## Wireframes
 

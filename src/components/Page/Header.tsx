@@ -25,7 +25,7 @@ const NavLink: FC<NavLinkProps> = ({ href, value }) => {
 const Header: FC = () => {
   return (
     <Box sx={{ borderBottom: "2px solid var(--main-border-color)" }}>
-      <Container sx={{ padding: "16px" }}>
+      <Container sx={{ padding: "16px", maxWidth: "none !important" }}>
         <Link
           href={"/"}
           style={{
@@ -55,6 +55,7 @@ const Header: FC = () => {
           },
           fontFamily: "sans-serif",
           pb: 2,
+          maxWidth: "none !important",
         }}
       >
         <NavLink href={"/"} value="Home" />
