@@ -2,10 +2,6 @@
 
 ## Example
 
-[Gallery.tsx](/src/components/Gallery/Gallery.tsx#L1)
-
-```typescript
-const FooBar: FC<{ foo: Foo; bar: () => void }> = ({ foo, bar }) => {
-```
+[fakeComponent.tsx](/src/components/fakeComponent.tsx#L1)
 
 > FooBar isn't a clear name for this component. 'GalleryCard' would be a better fit.
