@@ -1,7 +1,7 @@
 import { Box, Container } from "@mui/system";
 import { Link } from "@mui/material";
 
-import { FC } from "react";
+import React, { FC } from "react";
 
 type NavLinkProps = {
   href: string;

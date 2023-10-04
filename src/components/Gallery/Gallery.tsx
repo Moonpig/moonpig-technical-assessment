@@ -6,7 +6,7 @@ import {
   CardListData,
   getCard,
 } from "../../services/cardsService";
-import { FC, useEffect, useState } from "react";
+import React, { FC, useEffect, useState } from "react";
 import styled from "styled-components";
 import {
   IconButton,
@@ -19,7 +19,6 @@ import {
 import CloseIcon from "@mui/icons-material/Close";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import React from "react";
 
 type CardList = {
   state: "LOADING" | "LOADED";
@@ -93,52 +92,55 @@ const PM: FC<{ id: string; onClose: () => void }> = ({ id, onClose }) => {
 
   return (
     <>
-      {selectedCard && (
-        <Modal open={true} onClose={onClose} data-testid={"gallery-modal"}>
-          <MyModal>
-            <IconButton onClick={onClose}>
-              <CloseIcon />
-            </IconButton>
-            {/*<Box>
+      {
+        // eslint-disable-next-line eqeqeq
+        selectedCard != undefined && (
+          <Modal open={true} onClose={onClose} data-testid={"gallery-modal"}>
+            <MyModal>
+              <IconButton onClick={onClose}>
+                <CloseIcon />
+              </IconButton>
+              {/*<Box>
               <h2>{selectedCard.title}</h2>
               <div>£{selectedCard.price}</div>
             Box>*/}
-            <Box display={"flex"} flexDirection={"row"}>
-              <Box width={{ xs: "100%", sm: "200px" }} mx="auto">
-                <MCard>
-                  <Carousel
-                    showStatus={false}
-                    showIndicators={false}
-                    showThumbs={false}
-                  >
-                    {selectedCard.images.map(({ url, alt }, index) => (
-                      <Link key={index} href={"#"} role={"button"}>
-                        <CardMedia component="img" image={url} />
-                      </Link>
-                    ))}
-                  </Carousel>
-                </MCard>
-              </Box>
-              <Box
-                textAlign="center"
-                display={"flex"}
-                flex={"1"}
-                flexDirection={"column"}
-                justifyContent="space-between"
-              >
-                <Box>
-                  <h2>{selectedCard.title}</h2>
-                  <div>£{selectedCard.price}</div>
+              <Box display={"flex"} flexDirection={"row"}>
+                <Box width={{ xs: "100%", sm: "200px" }} mx="auto">
+                  <MCard>
+                    <Carousel
+                      showStatus={false}
+                      showIndicators={false}
+                      showThumbs={false}
+                    >
+                      {selectedCard.images.map(({ url }, index) => (
+                        <Link key={index} href={"#"} role={"button"}>
+                          <CardMedia component="img" image={url} />
+                        </Link>
+                      ))}
+                    </Carousel>
+                  </MCard>
                 </Box>
+                <Box
+                  textAlign="center"
+                  display={"flex"}
+                  flex={"1"}
+                  flexDirection={"column"}
+                  justifyContent="space-between"
+                >
+                  <Box>
+                    <h2>{selectedCard.title}</h2>
+                    <div>£{selectedCard.price}</div>
+                  </Box>
 
-                <Box>
-                  <Button>Dismiss</Button>
+                  <Box>
+                    <Button>Dismiss</Button>
+                  </Box>
                 </Box>
               </Box>
-            </Box>
-          </MyModal>
-        </Modal>
-      )}
+            </MyModal>
+          </Modal>
+        )
+      }
     </>
   );
 };
