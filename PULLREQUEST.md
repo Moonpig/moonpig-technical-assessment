@@ -1,4 +1,4 @@
-# Pull Request Feedback - YOUR NAME
+# Pull Request Feedback - [ENTER YOUR NAME HERE]
 
 ## Example
 
@@ -8,4 +8,4 @@
 const FooBar: FC<{ foo: Foo; bar: () => void }> = ({ foo, bar }) => {
 ```
 
-> This is a poorly named component. It is unclear what `FooBar` means in this context
+> FooBar isn't a clear name for this component. 'GalleryCard' would be a better fit.
