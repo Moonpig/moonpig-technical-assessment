@@ -1,4 +1,5 @@
 import Head from "next/head";
+import React from "react";
 import { Gallery } from "@/components/Gallery/Gallery";
 
 export default function Home() {

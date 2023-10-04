@@ -1,3 +1,4 @@
+import React from "react";
 import Footer from "@/components/Page/Footer";
 import Header from "@/components/Page/Header";
 import "@/styles/_app.css";
