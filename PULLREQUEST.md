@@ -2,10 +2,10 @@
 
 ## Example
 
-[Gallery.tsx](/src/components/Gallery/Gallery.tsx#L127)
+[Gallery.tsx](/src/components/Gallery/Gallery.tsx#L1)
 
 ```typescript
-const PM: FC<{ card: Card; onClose: () => void }> = ({ card, onClose }) => {
+const FooBar: FC<{ foo: Foo; bar: () => void }> = ({ foo, bar }) => {
 ```
 
-> This is a poorly named component. It is unclear what `PM` means in this context. Perhaps `ProductModal` is clearer.
+> This is a poorly named component. It is unclear what `FooBar` means in this context

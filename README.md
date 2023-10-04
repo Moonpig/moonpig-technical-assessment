@@ -12,27 +12,15 @@ The business requirements for the pull request are outlined in [REQUIREMENTS.md]
 
 ### How to Answer
 
-Ordinarily we would use GitHub to review pull requests. For the purposes of this assessment, please modify [PULLREQUEST.md](PULLREQUEST.md) adding your feedback with reference to the particular file name and line number.
-
-For example:
-
-[Gallery.tsx](/src/components/Gallery/Gallery.tsx#L127)
-
-```typescript
-const PM: FC<{ card: Card; onClose: () => void }> = ({ card, onClose }) => {
-```
-
-> This is a poorly named component. It is unclear what `PM` means in this context. Perhaps `ProductModal` is clearer.
+Ordinarily we would use GitHub to review pull requests. For the purposes of this assessment, please modify [PULLREQUEST.md](PULLREQUEST.md) to add your feedback with reference to the particular file name and line number.
 
 ## Assessment
 
-This should be treated as production code, but understand that this is only for assessment purposes. For simplicity, card product data is retrieved from the local development server inside `src/services/cardsService.ts`. You can treat `cardsService` as a black box: this is simulating a real service call and doesn't form part of the code you need to review.
+This should be treated as production code, but understand that this is only for assessment purposes. For simplicity, card product data is retrieved from the local development server inside `src/services/cardsService.ts`. You should be aware of the behaviour of `cardsService` but as it's simulating a real service it doesn't form part of the code you need to review.
 
 ## Criteria
 
-We will assess your submission based on:
-
--
+We will assess your submission based on the points raised in your feedback, along with how it is presented.
 
 ## How to Run
 
