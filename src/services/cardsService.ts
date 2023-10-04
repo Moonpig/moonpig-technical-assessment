@@ -1,3 +1,5 @@
+import "isomorphic-fetch";
+
 export type GetCardsList = () => Promise<CardListData>;
 
 export type Card = {
