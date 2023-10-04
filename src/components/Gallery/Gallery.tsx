@@ -1,7 +1,7 @@
 import { Box } from "@mui/system";
 import { GalleryCard } from "./GalleryCard";
 import { Card, getCardList, CardListData } from "../../services/cardsService";
-import { FC, useEffect, useMemo, useState } from "react";
+import React, { FC, useEffect, useState } from "react";
 
 type CardList = {
   state: "LOADING" | "LOADED";
