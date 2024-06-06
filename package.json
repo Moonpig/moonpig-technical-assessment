@@ -8,9 +8,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "@mui/icons-material": "^5.14.3",
     "@mui/material": "^5.14.3",
     "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
     "@mui/styled-engine-sc": "^5.12.0",
+    "@testing-library/user-event": "^14.5.1",
     "@types/node": "20.4.8",
     "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",
@@ -20,6 +22,7 @@
     "next": "13.4.13",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "styled-components": "^6.0.7",
     "typescript": "5.1.6"
   },
