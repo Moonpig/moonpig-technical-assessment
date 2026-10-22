@@ -16,6 +16,8 @@ The pull request can be found here: [Pull Request](https://github.com/Moonpig/mo
 
 Ordinarily we would use GitHub to review pull requests. For the purposes of this assessment, please make a copy of [PULLREQUEST.md](PULLREQUEST.md) and modify it to add your feedback with reference to the particular file name and line number.
 
+You are welcome to use AI tooling to support your review, however please state what tooling you have used and how you have used it within the `PULLREQUEST.md` file.
+
 Once completed, please email this file to your Moonpig contact.
 
 ## Assessment
